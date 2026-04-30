@@ -1,0 +1,13 @@
+@use "reset";
+@use "../../shared/styles/fonts/fonts.scss";
+
+.app {
+    font-family: "TT Fellows", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+input, textarea {outline:none;}
+
+:root {
+    font-size: 14px;
+}

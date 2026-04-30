@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "lib": ["es6", "dom", "es2017"],
+        "target": "ESNext",
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "strict": true,
+        "moduleResolution": "bundler",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "types": ["node", "vite/client"]
+    },
+    "include": [".eslintrc.config.mjs", "**/*.tsx", "**/*.ts", "src/entities/News/ui/NewsCardCompact"],
+    "exclude": ["node_modules"],
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    }
+}

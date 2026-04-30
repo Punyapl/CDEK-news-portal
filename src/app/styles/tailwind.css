@@ -1,0 +1,21 @@
+/* stylelint-disable color-hex-length */
+/* stylelint-disable scss/at-rule-no-unknown */
+/* stylelint-disable media-feature-range-notation */
+/* stylelint-disable rule-empty-line-before */
+/* stylelint-disable at-rule-empty-line-before */
+@import "tailwindcss";
+
+@theme {
+    --color-text-secondary: #85888E;
+    --color-text-primary: #181A1F;
+    --color-badge-text: #000000;
+    --color-badge-info-text: #0E2A45;
+    --color-badge-secondary-background: #E2E2E4;
+    --color-info-button-background: #AAD7FB;
+    --color-badge-warning-text: #4F3709;
+    --color-warning-button-background: #FDDEAA;
+    --color-divider: #E2E2E4;
+    --color-button-text: #2B2E33;
+    --color-logo: #00A952;
+    --color-page-background: #F2F5EA;
+}
